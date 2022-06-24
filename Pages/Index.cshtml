@@ -1,0 +1,14 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<form pasp-page="index" asp  method="post">
+    <input type="number" name="orderId" id="orderId" value="5" />
+    <input type="text" name="userName" id="userName" value="Behrouz" />
+    <button type="submit" class="btn btn-success">
+        Create Order
+    </button>
+</form>
